@@ -2,7 +2,7 @@ defaultNamespace: rancher-demo
 helm:
   chart: oci://ghcr.io/atoy3731/charts/rancher-demo
   takeOwnership: true
-  version: 0.1.0
+  version: 0.2.0
   releaseName: rancher-demo
   valuesFiles:
     - values.yaml
