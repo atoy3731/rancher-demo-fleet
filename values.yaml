@@ -4,3 +4,4 @@ config:
   hostname: ktos-demo.atoy.lol
   ingressEnabled: true
   backgroundColor: darkgrey
+  displayIcon: shield
