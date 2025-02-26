@@ -1,0 +1,6 @@
+replicaCount: 15
+
+config:
+  hostname: ktos-demo.atoy.lol
+  ingressEnabled: true
+  backgroundColor: darkgrey

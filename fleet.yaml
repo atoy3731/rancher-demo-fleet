@@ -1,0 +1,7 @@
+defaultNamespace: rancher-demo
+helm:
+  chart: oci://ghcr.io/atoy3731/charts/rancher-demo
+  version: 0.1.0
+  releaseName: rancher-demo
+  valuesFiles:
+    - values.yaml

@@ -1,0 +1,15 @@
+kind: GitRepo
+apiVersion: fleet.cattle.io/v1alpha1
+metadata:
+  name: rancher-demo-fleet
+  namespace: fleet-default
+spec:
+  repo: https://github.com/atoy3731/rancher-demo-fleet.git
+  branch: main
+  targets:
+  - name: demo-app
+    clusterSelector:
+      matchLabels:
+        demo-app: enabled
+  paths:
+  - "."
