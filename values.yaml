@@ -5,4 +5,4 @@ config:
   ingressEnabled: true
   backgroundColor: darkgrey
   displayIcon: shield
-    navlinkEnabled: true
+  navlinkEnabled: true
