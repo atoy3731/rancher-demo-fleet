@@ -2,7 +2,7 @@ replicaCount: 15
 
 config:
   hostname: ktos-demo.atoy.lol
-  ingressEnabled: true
+  ingressEnabled: false
   backgroundColor: white
   displayIcon: flag
   navlinkEnabled: true
