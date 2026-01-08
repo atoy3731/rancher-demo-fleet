@@ -4,5 +4,5 @@ config:
   hostname: demo-app.atoy.lol
   ingressEnabled: false
   backgroundColor: white
-  displayIcon: shield  # Valid values: flag, shield
+  displayIcon: flag  # Valid values: flag, shield
   navlinkEnabled: true
