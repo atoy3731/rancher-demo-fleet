@@ -1,4 +1,4 @@
-replicaCount: 15
+replicaCount: 3
 
 config:
   hostname: demo-app.atoy.lol
